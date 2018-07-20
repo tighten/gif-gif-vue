@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d5bca48e56bbf3a25645858fcab9c285",
+    "content-hash": "57d009000c2698404acc97ae864ae95f",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -3935,6 +3935,43 @@
             "time": "2017-04-07T12:08:54+00:00"
         },
         {
+            "name": "tightenco/presets",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tightenco/presets.git",
+                "reference": "5c3eb6e699c0e46728bd642c5c2dd8810a632511"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tightenco/presets/zipball/5c3eb6e699c0e46728bd642c5c2dd8810a632511",
+                "reference": "5c3eb6e699c0e46728bd642c5c2dd8810a632511",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "5.6.*",
+                "tightenco/presets": "@dev"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Tightenco\\Presets\\PresetsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Tightenco\\Presets\\": "src/"
+                }
+            },
+            "support": {
+                "source": "https://github.com/tightenco/presets/tree/master",
+                "issues": "https://github.com/tightenco/presets/issues"
+            },
+            "time": "2018-07-09T17:58:38+00:00"
+        },
+        {
             "name": "webmozart/assert",
             "version": "1.3.0",
             "source": {
@@ -3987,7 +4024,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "tightenco/presets": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
