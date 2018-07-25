@@ -11,6 +11,10 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // $this->call(UsersTableSeeder::class);
+        \App\Vote::create([
+            'picked' => 'gif1',
+            'reason' => 'Peanut butter is amazing, haters',
+            'name' => 'Samantha Geitz'
+        ]);
     }
 }

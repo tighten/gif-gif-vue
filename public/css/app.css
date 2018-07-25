@@ -6393,6 +6393,40 @@ table {
  * @import "utilities/skew-transforms";
  */
 
+.button {
+  background-color: #3490dc;
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  border-radius: .25rem;
+  color: #fff;
+}
+
+.button:hover {
+  background-color: #2779bd;
+}
+
+.input {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: #f1f5f8;
+  border-width: 2px;
+  border-color: #f1f5f8;
+  line-height: 1.25;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  border-radius: .25rem;
+  color: #606f7b;
+  width: 100%;
+}
+
 .navbar-laravel {
   background-color: #fff;
   -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, .04);

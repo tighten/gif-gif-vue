@@ -65,6 +65,35 @@
  */
 
 
+.button {
+  @apply
+    .bg-blue
+    .font-bold
+    .my-8
+    .px-4
+    .py-2
+    .rounded
+    .text-white;
+
+    &:hover {
+      @apply .bg-blue-dark;
+    }
+}
+
+.input {
+  @apply
+    .appearance-none
+    .bg-grey-lighter
+    .border-2
+    .border-grey-lighter
+    .leading-tight
+    .px-4
+    .py-2
+    .rounded
+    .text-grey-darker
+    .w-full;
+}
+
 .navbar-laravel {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);

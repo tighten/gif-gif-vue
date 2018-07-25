@@ -991,7 +991,7 @@ window.Vue = __webpack_require__(31);
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-Vue.component('example-component', __webpack_require__(34));
+Vue.component('gif-gif', __webpack_require__(34));
 
 var app = new Vue({
   el: '#app'
@@ -13185,7 +13185,7 @@ var Component = normalizeComponent(
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "resources/assets/js/components/ExampleComponent.vue"
+Component.options.__file = "resources/assets/js/components/GifGif.vue"
 
 /* hot reload */
 if (false) {(function () {
@@ -13194,9 +13194,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-7168fb6a", Component.options)
+    hotAPI.createRecord("data-v-ed53b352", Component.options)
   } else {
-    hotAPI.reload("data-v-7168fb6a", Component.options)
+    hotAPI.reload("data-v-ed53b352", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -13337,12 +13337,50 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
-/* harmony default export */ __webpack_exports__["default"] = ({
-    mounted: function mounted() {
-        console.log('Component mounted.');
-    }
-});
+/* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
 /* 37 */
@@ -13359,18 +13397,97 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container" }, [
-      _c("div", { staticClass: "row justify-content-center" }, [
-        _c("div", { staticClass: "col-md-8" }, [
-          _c("div", { staticClass: "card" }, [
-            _c("div", { staticClass: "card-header" }, [
-              _vm._v("Example Component")
+    return _c("div", [
+      _c("div", { staticClass: "rounded shadow text-grey-darker" }, [
+        _c("div", { staticClass: "py-8" }, [
+          _c("h3", { staticClass: "text-center" }, [
+            _vm._v("How do you pronounce the word "),
+            _c("span", { staticClass: "font-light uppercase" }, [
+              _vm._v("gif")
+            ]),
+            _vm._v("?")
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "flex justify-center py-8" }, [
+            _c("label", { staticClass: "mx-8", attrs: { for: "jif" } }, [
+              _vm._v("\n                    GIF\n                    "),
+              _c("input", {
+                attrs: {
+                  type: "radio",
+                  id: "jif",
+                  value: "jif",
+                  name: "pronunciation"
+                }
+              })
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "card-body" }, [
+            _c("label", { staticClass: "mx-8", attrs: { for: "gif" } }, [
+              _vm._v("\n                    GIF\n                    "),
+              _c("input", {
+                attrs: {
+                  type: "radio",
+                  id: "gif",
+                  value: "gif",
+                  name: "pronunciation"
+                }
+              })
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "flex justify-center" }, [
+          _c("div", { staticClass: "w-3/4" }, [
+            _c("input", {
+              staticClass: "input",
+              attrs: {
+                id: "reason",
+                type: "text",
+                placeholder:
+                  "Why do you think it should be pronounced that way?"
+              }
+            })
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "flex justify-center my-4" }, [
+          _c("div", { staticClass: "w-3/4" }, [
+            _c("input", {
+              staticClass: "input",
+              attrs: {
+                id: "name",
+                type: "text",
+                placeholder: "What is your name?"
+              }
+            })
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "flex justify-center" }, [
+          _c("button", { staticClass: "button", attrs: { id: "submit" } }, [
+            _vm._v("\n                Submit\n            ")
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "py-8" }, [
+        _c("h4", { staticClass: "text-grey-darker text-center" }, [
+          _vm._v("User Responses:")
+        ]),
+        _vm._v(" "),
+        _c("ul", [
+          _c("li", { staticClass: "py-4" }, [
+            _c("p", [
+              _c("span", { staticClass: "font-light uppercase" }, [
+                _vm._v("gif")
+              ]),
               _vm._v(
-                "\n                    I'm an example component.\n                "
+                " —\n                    It's the way the creator of the format wanted!"
               )
+            ]),
+            _vm._v(" "),
+            _c("p", { staticClass: "text-sm mt-2" }, [
+              _vm._v("Submitted by "),
+              _c("span", { staticClass: "uppercase" }, [_vm._v("Samantha")])
             ])
           ])
         ])
@@ -13383,7 +13500,7 @@ module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-7168fb6a", module.exports)
+    require("vue-hot-reload-api")      .rerender("data-v-ed53b352", module.exports)
   }
 }
 
