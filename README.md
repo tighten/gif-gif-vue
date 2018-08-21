@@ -11,3 +11,7 @@ It is a basic Vue/Laravel application with some tests written in [Jest](https://
 Currently, this project is using an in-development version of [Laravel Jest Presets](https://github.com/tightenco/laravel-preset-jest/). This package is *NOT ON PACKAGIST AND PROBABLY NOT PRODUCTION READY*, but you can use it if you are interested in trying out Jest easily in your Laravel applications! 
 
 *COMING SOON - A REACT VERSION OF THIS PROJECT!*
+
+---
+
+Want to learn more about how to write and configure front-end tests? Check out [this post](https://tighten.co/blog/its-time-to-start-testing-your-vue-components-getting-started-with-jest) by [@CalebPorzio](https://twitter.com/calebporzio) on our blog!
