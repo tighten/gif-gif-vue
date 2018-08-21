@@ -11,10 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
-
 //Route::get('/', function () {
-//    return view('home', ['votes' => \App\Vote::all()->toJson()]);
+//    return view('home');
 //});
+
+Route::get('/', function () {
+    return view('home', ['votes' => \App\Vote::all()->toJson()]);
+});

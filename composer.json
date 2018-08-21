@@ -7,7 +7,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/tightenco/presets"
+            "url": "https://github.com/tightenco/laravel-preset-jest"
         }
     ],
     "require": {
@@ -22,7 +22,7 @@
         "mockery/mockery": "^1.0",
         "nunomaduro/collision": "^2.0",
         "phpunit/phpunit": "^7.0",
-        "tightenco/presets": "@dev"
+        "tightenco/laravel-preset-jest": "@dev"
     },
     "autoload": {
         "classmap": [
